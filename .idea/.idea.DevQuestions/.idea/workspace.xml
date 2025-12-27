@@ -12,7 +12,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cdc8fde-38be-4e1d-9de9-396d215db66b" name="Changes" comment="" />
+    <list default="true" id="6cdc8fde-38be-4e1d-9de9-396d215db66b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DevQuestions.Application/DependencyInjection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DevQuestions.Application/Questions/CreateQuestionValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DevQuestions.Application/Questions/IQuestionRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DevQuestions.Application/Questions/IQuestionService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DevQuestions.Domain/Reports/ReportStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DevQuestions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DevQuestions/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuestions.Contracts/AddAnswerDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DevQuestions.Contracts/Questions/AddAnswerDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuestions.Contracts/CreateQuestionDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DevQuestions.Contracts/Questions/CreateQuestionDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuestions.Contracts/GetQuestionsDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DevQuestions.Contracts/Questions/GetQuestionsDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuestions.Contracts/UpdateQuestionDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DevQuestions.Contracts/Questions/UpdateQuestionDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuestions.Contracts/obj/Debug/net8.0/DevQuestions.Contracts.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DevQuestions.Contracts/obj/Debug/net8.0/DevQuestions.Contracts.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuestions.Contracts/obj/Debug/net8.0/DevQuestions.Contracts.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DevQuestions.Contracts/obj/Debug/net8.0/DevQuestions.Contracts.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuestions.Contracts/obj/Debug/net8.0/DevQuestions.Contracts.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/DevQuestions.Contracts/obj/Debug/net8.0/DevQuestions.Contracts.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuestions.Contracts/obj/Debug/net8.0/DevQuestions.Contracts.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DevQuestions.Contracts/obj/Debug/net8.0/DevQuestions.Contracts.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuestions.Contracts/obj/DevQuestions.Contracts.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DevQuestions.Contracts/obj/DevQuestions.Contracts.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuestions.Contracts/obj/DevQuestions.Contracts.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/DevQuestions.Contracts/obj/DevQuestions.Contracts.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuestions.Contracts/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DevQuestions.Contracts/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuestions.Contracts/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DevQuestions.Contracts/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuestions.Contracts/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DevQuestions.Contracts/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuestions.Contracts/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/DevQuestions.Contracts/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuestions.Contracts/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DevQuestions.Contracts/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuestions.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DevQuestions.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Domain/Questions/Question.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Domain/Questions/Question.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Domain/Reports/Report.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Domain/Reports/Report.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Domain/Reports/Status.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/Debug/net8.0/DevQuestions.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/Debug/net8.0/DevQuestions.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/Debug/net8.0/DevQuestions.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/Debug/net8.0/DevQuestions.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/Debug/net8.0/DevQuestions.Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/Debug/net8.0/DevQuestions.Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/Debug/net8.0/DevQuestions.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/Debug/net8.0/DevQuestions.Domain.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/DevQuestions.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/DevQuestions.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/DevQuestions.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/DevQuestions.Domain.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Presenters/DevQuestions.Presenters.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Presenters/DevQuestions.Presenters.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Presenters/QuestionsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Presenters/Questions/QuestionsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/Debug/net8.0/DevQuestions.Presenters.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/Debug/net8.0/DevQuestions.Presenters.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/Debug/net8.0/DevQuestions.Presenters.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/Debug/net8.0/DevQuestions.Presenters.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/Debug/net8.0/DevQuestions.Presenters.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/Debug/net8.0/DevQuestions.Presenters.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/Debug/net8.0/DevQuestions.Presenters.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/Debug/net8.0/DevQuestions.Presenters.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/Debug/net8.0/DevQuestions.Presenters.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/Debug/net8.0/DevQuestions.Presenters.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/DevQuestions.Presenters.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/DevQuestions.Presenters.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/DevQuestions.Presenters.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/DevQuestions.Presenters.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/DevQuestions.Presenters.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/DevQuestions.Presenters.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Presenters/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Web/DevQuestions.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Web/DevQuestions.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Web/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Web/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Web/obj/Debug/net8.0/DevQuestions.Web.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Web/obj/Debug/net8.0/DevQuestions.Web.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Web/obj/Debug/net8.0/DevQuestions.Web.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Web/obj/Debug/net8.0/DevQuestions.Web.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Web/obj/Debug/net8.0/DevQuestions.Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Web/obj/Debug/net8.0/DevQuestions.Web.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Web/obj/Debug/net8.0/DevQuestions.Web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Web/obj/Debug/net8.0/DevQuestions.Web.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Web/obj/Debug/net8.0/DevQuestions.Web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Web/obj/Debug/net8.0/DevQuestions.Web.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Web/obj/DevQuestions.Web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Web/obj/DevQuestions.Web.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Web/obj/DevQuestions.Web.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Web/obj/DevQuestions.Web.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Web/obj/DevQuestions.Web.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Web/obj/DevQuestions.Web.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Web/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Web/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Web/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Web/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Web/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Web/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevQuestions.Web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevQuestions.Web/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +88,21 @@
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "amorqw"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/amorqw/DevQuestions.git",
+    "accountId": "7242632a-5892-4b64-b1e7-79a531d6d7e8"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -29,20 +111,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.DevQuestions.Presenters: http.executor&quot;: &quot;Debug&quot;,
-    &quot;.NET Launch Settings Profile.DevQuestions.Web: http.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;RiderIisExpressOptionsPageId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.DevQuestions.Presenters: http.executor": "Debug",
+    ".NET Launch Settings Profile.DevQuestions.Web: http.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "RiderIisExpressOptionsPageId",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.DevQuestions.Web: http">
     <configuration name="DevQuestions.Presenters: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/DevQuestions.Presenters/DevQuestions.Presenters.csproj" />
@@ -145,6 +228,7 @@
       <updated>1765795141296</updated>
       <workItem from="1765795143113" duration="2549000" />
       <workItem from="1765797732283" duration="2150000" />
+      <workItem from="1766837315576" duration="5431000" />
     </task>
     <servers />
   </component>

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kirill\\RiderProjects\\DevQuestions\\DevQuestions.Contracts\\DevQuestions.Contracts.csproj": {}
+    "/Users/amorqww/RiderProjects/DevQuestions/DevQuestions.Contracts/DevQuestions.Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kirill\\RiderProjects\\DevQuestions\\DevQuestions.Contracts\\DevQuestions.Contracts.csproj": {
+    "/Users/amorqww/RiderProjects/DevQuestions/DevQuestions.Contracts/DevQuestions.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kirill\\RiderProjects\\DevQuestions\\DevQuestions.Contracts\\DevQuestions.Contracts.csproj",
+        "projectUniqueName": "/Users/amorqww/RiderProjects/DevQuestions/DevQuestions.Contracts/DevQuestions.Contracts.csproj",
         "projectName": "DevQuestions.Contracts",
-        "projectPath": "C:\\Users\\kirill\\RiderProjects\\DevQuestions\\DevQuestions.Contracts\\DevQuestions.Contracts.csproj",
-        "packagesPath": "C:\\Users\\kirill\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kirill\\RiderProjects\\DevQuestions\\DevQuestions.Contracts\\obj\\",
+        "projectPath": "/Users/amorqww/RiderProjects/DevQuestions/DevQuestions.Contracts/DevQuestions.Contracts.csproj",
+        "packagesPath": "/Users/amorqww/.nuget/packages/",
+        "outputPath": "/Users/amorqww/RiderProjects/DevQuestions/DevQuestions.Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kirill\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/amorqww/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -61,12 +61,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2,6 +2,36 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "FluentValidation/12.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/12.1.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "12.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.3.0": {
         "type": "package",
         "dependencies": {
@@ -1243,6 +1273,23 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "DevQuestions.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DevQuestions.Contracts": "1.0.0",
+          "DevQuestions.Domain": "1.0.0",
+          "FluentValidation": "12.1.1",
+          "FluentValidation.DependencyInjectionExtensions": "12.1.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2"
+        },
+        "compile": {
+          "bin/placeholder/DevQuestions.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevQuestions.Application.dll": {}
+        }
+      },
       "DevQuestions.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1266,6 +1313,36 @@
     }
   },
   "libraries": {
+    "FluentValidation/12.1.1": {
+      "sha512": "EPpkIe1yh1a0OXyC100oOA8WMbZvqUu5plwhvYcb7oSELfyUZzfxV48BLhvs3kKo4NwG7MGLNgy1RJiYtT8Dpw==",
+      "type": "package",
+      "path": "fluentvalidation/12.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.12.1.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/12.1.1": {
+      "sha512": "D0VXh4dtjjX2aQizuaa0g6R8X3U1JaVqJPfGCvLwZX9t/O2h7tkpbitbadQMfwcgSPdDbI2vDxuwRMv/Uf9dHA==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/12.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/net8.0/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.3.0": {
       "sha512": "ve6uvLwKNRkfnO/QeN9M8eUJ49lCnWv/6/9p6iTEuiI6Rtsz+myaBAjdMzLuTViQY032xbTF5AdZF5BJzJJyXQ==",
       "type": "package",
@@ -4224,6 +4301,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "DevQuestions.Application/1.0.0": {
+      "type": "project",
+      "path": "../DevQuestions.Application/DevQuestions.Application.csproj",
+      "msbuildProject": "../DevQuestions.Application/DevQuestions.Application.csproj"
+    },
     "DevQuestions.Contracts/1.0.0": {
       "type": "project",
       "path": "../../DevQuestions.Contracts/DevQuestions.Contracts.csproj",
@@ -4237,6 +4319,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "DevQuestions.Application >= 1.0.0",
       "DevQuestions.Contracts >= 1.0.0",
       "DevQuestions.Domain >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Core >= 2.3.0",
@@ -4244,19 +4327,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kirill\\.nuget\\packages\\": {}
+    "/Users/amorqww/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kirill\\RiderProjects\\DevQuestions\\src\\DevQuestions.Presenters\\DevQuestions.Presenters.csproj",
+      "projectUniqueName": "/Users/amorqww/RiderProjects/DevQuestions/src/DevQuestions.Presenters/DevQuestions.Presenters.csproj",
       "projectName": "DevQuestions.Presenters",
-      "projectPath": "C:\\Users\\kirill\\RiderProjects\\DevQuestions\\src\\DevQuestions.Presenters\\DevQuestions.Presenters.csproj",
-      "packagesPath": "C:\\Users\\kirill\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kirill\\RiderProjects\\DevQuestions\\src\\DevQuestions.Presenters\\obj\\",
+      "projectPath": "/Users/amorqww/RiderProjects/DevQuestions/src/DevQuestions.Presenters/DevQuestions.Presenters.csproj",
+      "packagesPath": "/Users/amorqww/.nuget/packages/",
+      "outputPath": "/Users/amorqww/RiderProjects/DevQuestions/src/DevQuestions.Presenters/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kirill\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/amorqww/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4268,11 +4351,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\kirill\\RiderProjects\\DevQuestions\\DevQuestions.Contracts\\DevQuestions.Contracts.csproj": {
-              "projectPath": "C:\\Users\\kirill\\RiderProjects\\DevQuestions\\DevQuestions.Contracts\\DevQuestions.Contracts.csproj"
+            "/Users/amorqww/RiderProjects/DevQuestions/DevQuestions.Contracts/DevQuestions.Contracts.csproj": {
+              "projectPath": "/Users/amorqww/RiderProjects/DevQuestions/DevQuestions.Contracts/DevQuestions.Contracts.csproj"
             },
-            "C:\\Users\\kirill\\RiderProjects\\DevQuestions\\src\\DevQuestions.Domain\\DevQuestions.Domain.csproj": {
-              "projectPath": "C:\\Users\\kirill\\RiderProjects\\DevQuestions\\src\\DevQuestions.Domain\\DevQuestions.Domain.csproj"
+            "/Users/amorqww/RiderProjects/DevQuestions/src/DevQuestions.Application/DevQuestions.Application.csproj": {
+              "projectPath": "/Users/amorqww/RiderProjects/DevQuestions/src/DevQuestions.Application/DevQuestions.Application.csproj"
+            },
+            "/Users/amorqww/RiderProjects/DevQuestions/src/DevQuestions.Domain/DevQuestions.Domain.csproj": {
+              "projectPath": "/Users/amorqww/RiderProjects/DevQuestions/src/DevQuestions.Domain/DevQuestions.Domain.csproj"
             }
           }
         }
@@ -4314,12 +4400,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.12, 8.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.12, 8.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
