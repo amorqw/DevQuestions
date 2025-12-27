@@ -1,0 +1,11 @@
+C:\Users\kirill\RiderProjects\DevQuestions\DevQuestions.Contracts\bin\Debug\net8.0\DevQuestions.Contracts.deps.json
+C:\Users\kirill\RiderProjects\DevQuestions\DevQuestions.Contracts\bin\Debug\net8.0\DevQuestions.Contracts.dll
+C:\Users\kirill\RiderProjects\DevQuestions\DevQuestions.Contracts\bin\Debug\net8.0\DevQuestions.Contracts.pdb
+C:\Users\kirill\RiderProjects\DevQuestions\DevQuestions.Contracts\obj\Debug\net8.0\DevQuestions.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kirill\RiderProjects\DevQuestions\DevQuestions.Contracts\obj\Debug\net8.0\DevQuestions.Contracts.AssemblyInfoInputs.cache
+C:\Users\kirill\RiderProjects\DevQuestions\DevQuestions.Contracts\obj\Debug\net8.0\DevQuestions.Contracts.AssemblyInfo.cs
+C:\Users\kirill\RiderProjects\DevQuestions\DevQuestions.Contracts\obj\Debug\net8.0\DevQuestions.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\kirill\RiderProjects\DevQuestions\DevQuestions.Contracts\obj\Debug\net8.0\DevQuestions.Contracts.dll
+C:\Users\kirill\RiderProjects\DevQuestions\DevQuestions.Contracts\obj\Debug\net8.0\refint\DevQuestions.Contracts.dll
+C:\Users\kirill\RiderProjects\DevQuestions\DevQuestions.Contracts\obj\Debug\net8.0\DevQuestions.Contracts.pdb
+C:\Users\kirill\RiderProjects\DevQuestions\DevQuestions.Contracts\obj\Debug\net8.0\ref\DevQuestions.Contracts.dll

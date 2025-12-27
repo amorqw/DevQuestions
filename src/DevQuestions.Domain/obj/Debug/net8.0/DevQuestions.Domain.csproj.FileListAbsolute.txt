@@ -1,0 +1,11 @@
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Domain\bin\Debug\net8.0\DevQuestions.Domain.deps.json
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Domain\bin\Debug\net8.0\DevQuestions.Domain.dll
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Domain\bin\Debug\net8.0\DevQuestions.Domain.pdb
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Domain\obj\Debug\net8.0\DevQuestions.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Domain\obj\Debug\net8.0\DevQuestions.Domain.AssemblyInfoInputs.cache
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Domain\obj\Debug\net8.0\DevQuestions.Domain.AssemblyInfo.cs
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Domain\obj\Debug\net8.0\DevQuestions.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Domain\obj\Debug\net8.0\DevQuestions.Domain.dll
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Domain\obj\Debug\net8.0\refint\DevQuestions.Domain.dll
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Domain\obj\Debug\net8.0\DevQuestions.Domain.pdb
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Domain\obj\Debug\net8.0\ref\DevQuestions.Domain.dll

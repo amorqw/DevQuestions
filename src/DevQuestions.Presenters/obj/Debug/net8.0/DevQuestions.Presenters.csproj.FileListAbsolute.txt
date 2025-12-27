@@ -1,0 +1,17 @@
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\bin\Debug\net8.0\DevQuestions.Presenters.deps.json
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\bin\Debug\net8.0\DevQuestions.Presenters.dll
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\bin\Debug\net8.0\DevQuestions.Presenters.pdb
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\bin\Debug\net8.0\DevQuestions.Domain.dll
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\bin\Debug\net8.0\DevQuestions.Domain.pdb
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\obj\Debug\net8.0\DevQuestions.Presenters.csproj.AssemblyReference.cache
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\obj\Debug\net8.0\DevQuestions.Presenters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\obj\Debug\net8.0\DevQuestions.Presenters.AssemblyInfoInputs.cache
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\obj\Debug\net8.0\DevQuestions.Presenters.AssemblyInfo.cs
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\obj\Debug\net8.0\DevQuestions.Presenters.csproj.CoreCompileInputs.cache
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\obj\Debug\net8.0\DevQuest.DC470A07.Up2Date
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\obj\Debug\net8.0\DevQuestions.Presenters.dll
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\obj\Debug\net8.0\refint\DevQuestions.Presenters.dll
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\obj\Debug\net8.0\DevQuestions.Presenters.pdb
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\obj\Debug\net8.0\ref\DevQuestions.Presenters.dll
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\bin\Debug\net8.0\DevQuestions.Contracts.dll
+C:\Users\kirill\RiderProjects\DevQuestions\src\DevQuestions.Presenters\bin\Debug\net8.0\DevQuestions.Contracts.pdb
